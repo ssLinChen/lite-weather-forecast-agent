@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 轻量级天气查询MCP服务
 
 基于Bearer Token认证的天气API服务，提供实时天气和天气预报查询功能。
@@ -328,3 +329,7 @@ lite-weather-forecast-agent/
 ## 贡献指南
 
 欢迎提交Issue和Pull Request来改进项目。
+=======
+# lite-weather-forecast-agent
+一款轻量级天气预报智能体
+>>>>>>> 29a4574a86e4ae3e8a9f57fa4ccb04e1ee6c829e

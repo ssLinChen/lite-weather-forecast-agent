@@ -1,0 +1,32 @@
+2025-10-08 11:23:53,593 - INFO: Git仓库初始化成功
+2025-10-08 11:23:53,593 - INFO: 配置的远程仓库URL: git@github.com:ssLinChen/lite-weather-forecast-agent.git
+2025-10-08 11:23:53,594 - INFO: 测试SSH连接到: github.com
+2025-10-08 11:23:56,980 - INFO: SSH连接测试成功: github.com
+2025-10-08 11:23:56,981 - INFO: 检查仓库是否存在: ssLinChen/lite-weather-forecast-agent 在 github.com
+2025-10-08 11:24:07,978 - WARNING: 检查仓库存在性异常: Command '['git', 'ls-remote', 'git@github.com:ssLinChen/lite-weather-forecast-agent.git', 'HEAD']' timed out after 10 seconds
+2025-10-08 11:24:07,978 - WARNING: 远程仓库不存在或无法访问
+2025-10-08 11:24:07,979 - INFO: 请确认仓库URL是否正确，并且您有权限访问该仓库
+2025-10-08 11:24:07,989 - INFO: Git身份设置为: tutu <y80200156@mail.ecust.edu.cn>
+2025-10-08 11:24:08,045 - INFO: 已添加所有更改到暂存区
+2025-10-08 11:24:08,343 - INFO: 已提交更改: 初始化轻量级天气查询MCP服务项目，包含完整的HTTP服务器、天气API集成、缓存系统、多语言支持和专业编码修复功能
+2025-10-08 11:24:08,344 - INFO: 创建新的远程仓库连接: origin -> git@github.com:ssLinChen/lite-weather-forecast-agent.git
+2025-10-08 11:24:08,390 - INFO: 使用分支: main
+2025-10-08 11:24:08,436 - INFO: 本地分支 main 不存在，创建新分支
+2025-10-08 11:24:08,484 - INFO: 拉取远程仓库更改...
+2025-10-08 11:24:12,483 - INFO: 远程分支 main 存在，执行拉取操作
+2025-10-08 11:24:17,621 - WARNING: 检测到不相关的历史记录，尝试使用 --allow-unrelated-histories 选项
+2025-10-08 11:24:24,920 - WARNING: 拉取远程更改时出错: Cmd('git') failed due to: exit code(1)
+  cmdline: git pull origin main --allow-unrelated-histories
+  stdout: 'Auto-merging README.md
+CONFLICT (add/add): Merge conflict in README.md
+Automatic merge failed; fix conflicts and then commit the result.'
+  stderr: 'From github.com:ssLinChen/lite-weather-forecast-agent
+ * branch            main       -> FETCH_HEAD'
+2025-10-08 11:24:24,921 - WARNING: 尝试 1/3 失败: Cmd('git') failed due to: exit code(1)
+  cmdline: git pull origin main --allow-unrelated-histories
+  stdout: 'Auto-merging README.md
+CONFLICT (add/add): Merge conflict in README.md
+Automatic merge failed; fix conflicts and then commit the result.'
+  stderr: 'From github.com:ssLinChen/lite-weather-forecast-agent
+ * branch            main       -> FETCH_HEAD'
+2025-10-08 11:24:24,921 - INFO: 等待 2 秒后重试...
