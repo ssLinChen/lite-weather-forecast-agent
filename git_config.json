@@ -1,0 +1,25 @@
+{
+  "remote": {
+    "url": "git@github.com:ssLinChen/lite-weather-forecast-agent.git"
+  },
+  "user": {
+    "name": "tutu",
+    "email": "y80200156@mail.ecust.edu.cn"
+  },
+  "commit": {
+    "messageTemplate": "Auto-commit at {timestamp}",
+    "includeTimestamp": true,
+    "autoAdd": true
+  },
+  "branch": {
+    "default": "main",
+    "createOnPush": true
+  },
+  "errorHandling": {
+    "retryCount": 3,
+    "showDetails": true
+  },
+  "conflict": {
+    "forcePush": false
+  }
+}
